@@ -7,7 +7,7 @@ theme = "hugo-winston-theme"
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
-paginate = 3
+paginate = 5
 
 [module]
   [module.hugoVersion]
@@ -19,6 +19,6 @@ paginate = 3
   twitter_handle = "@edmarferreira"
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
-  showPostsOnHomepage = false
+  showPostsOnHomepage = false 
   addFrame = true
   addDot = true
