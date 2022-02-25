@@ -1,8 +1,17 @@
 baseURL = "/"
-languageCode = "en-us"
 title = "Edmar Ferreira"
 themesDir = "themes"
 theme = "hugo-winston-theme"
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'English'
+    weight = 10
+  [languages.pt]
+    contentDir = 'content/pt'
+    languageName = 'Português'
+    weight = 20
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true

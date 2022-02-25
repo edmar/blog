@@ -10,6 +10,15 @@
   <div class="intro">
     <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
     <div class="intro-content">{{ .Content }}</div>
+
+    <!-- div class="menu-lang">
+      <ul>
+        {{ range $.Site.Home.AllTranslations }}
+        <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+        {{ end }}
+      </ul>
+     </div --> 
+
   </div>
 
   {{ if .Site.Params.showPostsOnHomepage }}
@@ -21,6 +30,8 @@
   {{ end }}
 
 {{ end }}
+
+
 
 {{ define "footer_js" }}
 {{ end }}
