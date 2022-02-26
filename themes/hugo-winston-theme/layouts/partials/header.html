@@ -9,7 +9,20 @@
             </li>
         {{end}}
     </ul>
-
   </div>
+
+
+  {{ if .Site.IsMultiLingual }}
+  <nav id="lang-menu">
+    <ul>
+        <ul class="dropdown__menu">
+          {{ range $.Translations }}
+          <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+        </ul>
+          {{ end }}
+      </li>
+    </ul>
+  </nav>
+{{ end }}
 
 </div>

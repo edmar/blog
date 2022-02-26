@@ -61,28 +61,10 @@ h1, h2, h3 {
       .menu-main > ul > li:last-of-type {
         margin-right: 0; }
 
-.menu-lang {
-  display: none;
-  flex: 0; }
-  @media (min-width: 767px) {
-    .menu-lang {
-      display: block; } }
-  .menu-lang > ul {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; }
-    .menu-lang > ul > li {
-      margin-right: 10px; }
-      .menu-lang > ul > li > a {
-        display: inline-block;
-        text-decoration: none; }
-        .menu-lang > ul > li > a:hover {
-          text-decoration: underline; }
-      .menu-lang > ul > li.active > a {
-        display: inline-block;
-        font-weight: bold; }
-      .menu-lang > ul > li:last-of-type {
-        margin-right: 0; }
+#lang-menu {
+  float: right;
+  width: 50%;
+  text-align: right; }
 
 .footer {
   margin-top: 30px; }

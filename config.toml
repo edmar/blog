@@ -5,7 +5,7 @@ themesDir = "themes"
 theme = "hugo-winston-theme"
 
 [languages]
-  [languages.en]
+  [languages.en]  
     contentDir = 'content/en'
     languageName = 'English'
     weight = 10
