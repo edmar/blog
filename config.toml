@@ -1,4 +1,5 @@
-baseURL = "/"
+
+baseURL = "http://edmarferreira.com"
 title = "Edmar Ferreira"
 themesDir = "themes"
 theme = "hugo-winston-theme"
