@@ -110,7 +110,8 @@ ul {
     list-style: none; }
 
 .content {
-  font-size: 18px; }
+  font-size: 20px;
+  width: 80%; }
   .content p {
     font-size: 18px;
     line-height: 1.6;
