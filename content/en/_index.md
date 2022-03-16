@@ -1,5 +1,5 @@
 ---
-title: Why I Invested
+title: Start Here
 description: Introduction Page
 ---
 
